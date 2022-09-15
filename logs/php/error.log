@@ -1,0 +1,45 @@
+[11-Sep-2022 08:16:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/functions.php on line 30
+[11-Sep-2022 13:32:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/inc/queries.php on line 3
+[11-Sep-2022 14:42:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_parmalink() in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/inc/queries.php:18
+Stack trace:
+#0 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/page-classes.php(5): gymfitness_classes_list()
+#1 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(106): include('/Users/vladikum...')
+#2 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/vladikum...')
+#3 /Users/vladikumpan/Local Sites/gymfitness/app/public/index.php(17): require('/Users/vladikum...')
+#4 {main}
+  thrown in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/inc/queries.php on line 18
+[13-Sep-2022 14:55:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php on line 172
+[13-Sep-2022 14:55:00 UTC] PHP Stack trace:
+[13-Sep-2022 14:55:00 UTC] PHP   1. {main}() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:0
+[13-Sep-2022 14:55:00 UTC] PHP   2. do_action_ref_array() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:138
+[13-Sep-2022 14:55:00 UTC] PHP   3. WP_Hook->do_action() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/plugin.php:524
+[13-Sep-2022 14:55:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[13-Sep-2022 14:55:00 UTC] PHP   5. wp_version_check() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[13-Sep-2022 14:55:00 UTC] PHP   6. trigger_error() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php:172
+[13-Sep-2022 14:55:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php on line 410
+[13-Sep-2022 14:55:00 UTC] PHP Stack trace:
+[13-Sep-2022 14:55:00 UTC] PHP   1. {main}() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:0
+[13-Sep-2022 14:55:00 UTC] PHP   2. do_action_ref_array() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:138
+[13-Sep-2022 14:55:00 UTC] PHP   3. WP_Hook->do_action() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/plugin.php:524
+[13-Sep-2022 14:55:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[13-Sep-2022 14:55:00 UTC] PHP   5. wp_update_plugins() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[13-Sep-2022 14:55:00 UTC] PHP   6. trigger_error() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php:410
+[13-Sep-2022 14:55:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php on line 690
+[13-Sep-2022 14:55:00 UTC] PHP Stack trace:
+[13-Sep-2022 14:55:00 UTC] PHP   1. {main}() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:0
+[13-Sep-2022 14:55:00 UTC] PHP   2. do_action_ref_array() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-cron.php:138
+[13-Sep-2022 14:55:00 UTC] PHP   3. WP_Hook->do_action() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/plugin.php:524
+[13-Sep-2022 14:55:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[13-Sep-2022 14:55:00 UTC] PHP   5. wp_update_themes() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[13-Sep-2022 14:55:00 UTC] PHP   6. trigger_error() /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/update.php:690
+[13-Sep-2022 08:36:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php(82): register_widget('Foo_Widget')
+#2 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php(307): register_foo_widget('')
+#3 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#4 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#5 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/widgets.php(1854): do_action('widgets_init')
+#6 /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php(307): wp_widgets_init('')
+#7 /Users in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget-factory.php on line 61
+[14-Sep-2022 09:37:23 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/vladikumpan/Local Sites/gymfitness/app/public/wp-content/themes/gymfitnesswptheme/front-page.php on line 3
